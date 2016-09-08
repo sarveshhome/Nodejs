@@ -9,6 +9,7 @@ Required Softwares
 4. MongoChef - http://3t.io/mongochef/download/core/platform
 5. Git for windows - https://git-scm.com/download/win
 
+--------------------------------------------------------
 
 
 Step 1
