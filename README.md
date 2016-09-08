@@ -16,10 +16,14 @@ Step 1
 install nodejs
 
 Step 2
-Command:install npm
+Command:  install npm
 
 Step 3
-Command: npm install lite-server --global
+Command:  npm install lite-server --global
 
 step 4
 Command:  lite-server
+
+-----------------------------
+#Hello.js  will be execute in command prompt
+<img src="https://s-media-cache-ak0.pinimg.com/originals/c4/c4/de/c4c4de894799252157ff0446577e2506.png"></img>
