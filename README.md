@@ -26,4 +26,4 @@ Command:  lite-server
 
 -----------------------------
 #Hello.js  will be execute in command prompt
-http://pin.it/fgSkOkZ
+<img src="http://pin.it/fgSkOkZ"></img>
