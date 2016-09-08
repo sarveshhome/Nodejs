@@ -23,3 +23,7 @@ Command: npm install lite-server --global
 
 step 4
 Command:  lite-server
+
+-----------------------------
+#Hello.js  will be execute in command prompt
+http://pin.it/fgSkOkZ
