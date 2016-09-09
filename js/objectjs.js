@@ -1,3 +1,3 @@
-var computer={"brand":"Dell", "cpu":"i5"};
+var computer = { "brand": "Sony", "cpu": "i5" };
 
 document.getElementById("pid").innerHTML = computer.brand;
