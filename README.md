@@ -1,7 +1,7 @@
 # Nodejs
 
 
-You can use following links to download prerequisites software to use Nodejs:
+You can use following links to download prerequisite softwares to use Nodejs:
 
 1. Node.js - https://nodejs.org/en/
 2. Visual Studio Code - http://code.visualstudio.com/
