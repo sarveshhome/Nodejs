@@ -3,6 +3,7 @@ fs = require('fs');
 var startTime = new Date().getTime();
 
 //if file exists
+//readFile method async type
 fs.readFile('././file/data.txt', 'utf8', function(err, data) {
     if (err) {
         return console.log(err);
