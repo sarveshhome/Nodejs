@@ -1,5 +1,5 @@
 fs = require('fs')
-//if file not exits
+    //if file not exits
 fs.readFile('/file/hosts', 'utf8', function(err, data) {
     if (err) {
         return console.log(err);
