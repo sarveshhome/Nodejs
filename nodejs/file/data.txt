@@ -1,0 +1,16 @@
+Nodejs
+
+You can use following links to download prerequisite softwares to use Nodejs:
+
+Node.js - https://nodejs.org/en/
+Visual Studio Code - http://code.visualstudio.com/
+MongoDB - https://www.mongodb.com/
+MongoChef - http://3t.io/mongochef/download/core/platform
+Git for windows - https://git-scm.com/download/win
+Step 1 install nodejs
+
+Step 2 Command: install npm
+
+Step 3 Command: npm install lite-server --global
+
+step 4 Command: lite-server
