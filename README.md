@@ -34,7 +34,7 @@ Command:  lite-server
 
 
 ---------------------------------------------------------------------
-#this program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
+#This program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
 
 console.time("sarvesh");
 
