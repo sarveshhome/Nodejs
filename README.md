@@ -1,16 +1,16 @@
-//this program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
+# Nodejs
 
-console.time("sarvesh");
 
-for (var i = 0; i < 5; i++) {
-    (function(i) {
-        setTimeout(function() {
-            console.log(i);
-        }, i);
-    })(i);
-}
+You can use following links to download prerequisite softwares to use Nodejs:
 
-console.timeEnd("sarvesh");
+1. Node.js - https://nodejs.org/en/
+2. Visual Studio Code - http://code.visualstudio.com/
+3. MongoDB - https://www.mongodb.com/
+4. MongoChef - http://3t.io/mongochef/download/core/platform
+5. Git for windows - https://git-scm.com/download/win
+
+--------------------------------------------------------
+
 
 Step 1
 install nodejs
@@ -34,10 +34,9 @@ Command:  lite-server
 
 
 ---------------------------------------------------------------------
-#This program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
+#this program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
 
 console.time("sarvesh");
-
 for (var i = 0; i < 5; i++) {
     (function(i) {
         setTimeout(function() {
@@ -45,13 +44,12 @@ for (var i = 0; i < 5; i++) {
         }, i);
     })(i);
 }
-
 console.timeEnd("sarvesh");
 
 ------------------------------------------------------------------------------
 or
 
-var startTime = new Date().getTime();
-//your code
-var endTime = new Date().getTime();
-console.log("duration [ms] = " + (endTime - startTime));
+var startTime = new Date().getTime(); 
+//your code;
+ var endTime = new Date().getTime(); 
+ console.log("duration [ms] = " + (endTime - startTime));
