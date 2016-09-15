@@ -14,3 +14,25 @@ Step 2 Command: install npm
 Step 3 Command: npm install lite-server --global
 
 step 4 Command: lite-server
+
+
+In computer programming, a callback is a piece of executable code that is passed as an argument to other code,
+ which is expected to call back (execute) the argument at some convenient time. The invocation may be immediate as in a synchronous callback,
+  or it might happen at a later time as in an asynchronous callback. In all cases, the intention is to specify a function or subroutine as an entity that is, 
+  depending on the language, more or less similar to a variable.
+
+Programming languages support callbacks in different ways, often implementing them with subroutines, lambda expressions, blocks, or function pointers.
+
+-> A callback is often back on the level of the original caller.
+
+There are two types of callbacks, differing in how they control data flow at runtime: blocking callbacks (also known as synchronous callbacks or just callbacks) and deferred callbacks (also known as asynchronous callbacks). While blocking callbacks are invoked before a function returns (in the C example below, which illustrates a blocking callback, it is function main), deferred callbacks may be invoked after a function returns. Deferred callbacks are often used in the context of I/O operations or event handling, and are called by interrupts or by a different thread in case of multiple threads. Due to their nature, blocking callbacks can work without interrupts or multiple threads, meaning that blocking callbacks are not commonly used for synchronization or delegating work to another thread.
+
+Callbacks are used to program applications in windowing systems. In this case, the application supplies (a reference to) a specific custom callback function for the operating system to call, which then calls this application-specific function in response to events like mouse clicks or key presses. A major concern here is the management of privilege and security: whilst the function is called from the operating system, it should not run with the same privilege as the system. A solution to this problem is using rings of protection.
+
+Node.js is an open-source, cross-platform JavaScript runtime environment for developing a diverse variety of tools and applications. Although Node.js is not a JavaScript framework,[3] many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript. The runtime environment interprets JavaScript using Google's V8 JavaScript engine.
+
+Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).[4]
+
+The Node.js distributed development project, governed by the Node.js Foundation,[5] is facilitated by the Linux Foundation's Collaborative Projects program.[6]
+
+Corporate users of Node.js software include GoDaddy,[7] Groupon,[8] IBM,[9] LinkedIn,[10][11] Microsoft,[12][13] Netflix,[14] PayPal,[15][16] Rakuten, SAP,[17] Voxer,[18] Walmart,[19] Yahoo!,[20] and Cisco Systems.
