@@ -56,7 +56,8 @@ var startTime = new Date().getTime();
  
  --------------------------------
  
- #NPM Install
+ #NPM 
+> npm --version
  
 > npm install --global --production npm-windows-upgrade
 
