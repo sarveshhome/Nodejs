@@ -11,7 +11,6 @@ You can use following links to download prerequisite softwares to use Nodejs:
 
 --------------------------------------------------------
 
-
 Step 1
 install nodejs
 
@@ -28,6 +27,7 @@ Command:  lite-server
 #Hello.js  will be execute in command prompt
 <img src="https://s-media-cache-ak0.pinimg.com/originals/c4/c4/de/c4c4de894799252157ff0446577e2506.png"></img>
 
+-----------------------------------------------------------------
 
 #How to commit files to github
 <img src="https://github.com/sarveshhome/Nodejs/blob/master/Pics/gitinitcommit.png"></img>
@@ -53,3 +53,17 @@ var startTime = new Date().getTime();
 //your code;
  var endTime = new Date().getTime(); 
  console.log("duration [ms] = " + (endTime - startTime));
+ 
+ --------------------------------
+ #NPM Install
+> npm install --global --production npm-windows-upgrade
+> npm-windows-upgrade
+> npm init
+
+#Typing
+> npm install -g typings
+> typings install dt~node --global
+
+#ESlint
+> npm install -g eslint
+> eslint --init
