@@ -55,15 +55,21 @@ var startTime = new Date().getTime();
  console.log("duration [ms] = " + (endTime - startTime));
  
  --------------------------------
+ 
  #NPM Install
+ 
 > npm install --global --production npm-windows-upgrade
+
 > npm-windows-upgrade
+
 > npm init
 
 #Typing
 > npm install -g typings
+
 > typings install dt~node --global
 
 #ESlint
 > npm install -g eslint
+
 > eslint --init
