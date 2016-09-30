@@ -35,7 +35,7 @@ Command:  lite-server
 
 ---------------------------------------------------------------------
 #This program used for Calculating Execution Times in JavaScript with console.time and console.timeEnd
-
+``` javascript 
 console.time("sarvesh");
 for (var i = 0; i < 5; i++) {
     (function(i) {
@@ -45,18 +45,18 @@ for (var i = 0; i < 5; i++) {
     })(i);
 }
 console.timeEnd("sarvesh");
-
+```
 ------------------------------------------------------------------------------
 or
-
+```javascript
 var startTime = new Date().getTime(); 
 //your code;
  var endTime = new Date().getTime(); 
  console.log("duration [ms] = " + (endTime - startTime));
- 
+ ```
  --------------------------------
  
- #NPM 
+ ##NPM 
 > npm --version
  
 > npm install --global --production npm-windows-upgrade
@@ -65,12 +65,15 @@ var startTime = new Date().getTime();
 
 > npm init
 
-#Typing
+##Typing
 > npm install -g typings
 
 > typings install dt~node --global
 
-#ESlint
+##ESlint
 > npm install -g eslint
 
 > eslint --init
+
+##TypeScript
+>npm install -g typescript
