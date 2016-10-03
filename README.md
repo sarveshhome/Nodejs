@@ -82,3 +82,6 @@ var startTime = new Date().getTime();
 System-wide, using: npm install --global lite-server
 
 Locally to n NPM project, using npm install lite-server --save-dev
+
+#To run:
+> lite-server
