@@ -77,3 +77,7 @@ var startTime = new Date().getTime();
 
 ##TypeScript
 >npm install -g typescript
+
+##lite-server
+System-wide, using: npm install --global lite-server
+Locally to n NPM project, using npm install lite-server --save-dev
