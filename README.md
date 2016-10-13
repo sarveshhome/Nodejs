@@ -85,3 +85,29 @@ Locally to n NPM project, using npm install lite-server --save-dev
 
 #To run:
 > lite-server
+
+
+--------------------------------
+##Exress
+
+>npm init
+>npm install express --save
+>npm install -s typings
+
+```javascript
+var express = require('express');
+var app = express();
+
+app.get('/', function(req, res) {
+    res.send('first program in nodejs ');
+})
+
+app.set('port', process.env.PORT || 3001);
+
+var server = app.listen(3001, function() {
+    var host = server.address().address;
+    var port = server.address().port;
+
+    console.log("Example app listening at http://localhost:", port);
+})
+```
