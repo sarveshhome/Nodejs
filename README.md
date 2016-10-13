@@ -91,8 +91,11 @@ Locally to n NPM project, using npm install lite-server --save-dev
 ##Exress
 
 >npm init
+
 >npm install express --save
+
 >npm install -s typings
+
 
 ```javascript
 var express = require('express');
