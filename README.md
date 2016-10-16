@@ -78,8 +78,6 @@ var startTime = new Date().getTime();
 ##TypeScript
 >npm install -g typescript
 
->npm install -g typescript
-
 >npm install -g typescript@next
 
 >tsc -w main.ts
