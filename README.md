@@ -78,6 +78,13 @@ var startTime = new Date().getTime();
 ##TypeScript
 >npm install -g typescript
 
+>npm install -g typescript
+
+>npm install -g typescript@next
+
+>tsc -w main.ts
+
+
 ##lite-server
 System-wide, using: npm install --global lite-server
 
@@ -114,3 +121,39 @@ var server = app.listen(3001, function() {
     console.log("URL listening at http://localhost:", port);
 })
 ```
+
+
+--------------------------------
+##Useful command NPM
+
+ npm install  --save-dev browser-sync
+ 
+ npm install  --save-dev browserify
+ 
+ npm install  --save-dev chai
+ 
+ npm install  --save-dev gulp
+ 
+ npm install  --save-dev gulp-istanbul
+ 
+ npm install  --save-dev gulp-mocha
+ 
+ npm install  --save-dev gulp-sourcemaps
+ 
+ npm install  --save-dev gulp-tslint
+ 
+ npm install  --save-dev gulp-typescript
+ 
+ npm install  --save-dev gulp-uglify
+ 
+ npm install  --save-dev run-sequence
+ 
+ npm install  --save-dev tslint
+ 
+ npm install  --save-dev typescript
+ 
+ npm install  --save-dev vinyl-buffer
+ 
+ npm install  --save-dev vinyl-source-stream
+ 
+ 
