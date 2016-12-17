@@ -1,0 +1,16 @@
+{
+    "name": "handlemultipartformdata",
+    "version": "1.0.0",
+    "description": "handlemultipartformdata",
+    "main": "node-formidable.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "upload",
+        "multiple",
+        "data"
+    ],
+    "author": "sarvesh.mca@hotmail.com",
+    "license": "ISC"
+}
