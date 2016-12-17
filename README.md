@@ -27,7 +27,9 @@ If you are having problem in running lite-server command please run these three 
 then run lite-server.
 
 npm install -g concurrently
+
 npm install -g lite-server
+
 npm install -g typescript
 
 
