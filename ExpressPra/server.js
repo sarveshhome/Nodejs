@@ -3,7 +3,7 @@ var app = express();
 
 var expressvar = function(req, res, next) {
     res.setHeader('Content-Type', 'text/plain');
-    res.end('express');
+    res.end('Express - Node.js web application framework');
 };
 app.use(expressvar);
 
