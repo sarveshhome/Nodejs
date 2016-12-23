@@ -117,7 +117,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-    res.send('first program in nodejs ');
+    res.send('Express in nodejs ');
 })
 
 app.set('port', process.env.PORT || 3001);
