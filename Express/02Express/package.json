@@ -1,0 +1,20 @@
+{
+    "name": "expressjspage",
+    "version": "1.0.0",
+    "description": "express.js page render",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "express.js",
+        "page",
+        "render",
+        "nodejs"
+    ],
+    "author": "sarvesh.hotmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.14.0"
+    }
+}
