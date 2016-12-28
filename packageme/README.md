@@ -32,6 +32,13 @@ D:\Sarvesh\Sarvesh\Practice\Nodejs\packageMe>npm publish
 + packagepub@1.0.0
 
 D:\Sarvesh\Sarvesh\Practice\Nodejs\packageMe>
+-----------------------------------------------------------
+update package in npm 
+
+change the "version": "1.0.1" in package.json
+
+then command :  npm publish
+and  npm update --save
 
 --------------------------------------------------------------------
 
@@ -47,3 +54,5 @@ var numFormatter=require('packagepub');
 var formatedNumber= numFormatter(125646);
 console.log(formatedNumber);
 ```
+
+-------------------

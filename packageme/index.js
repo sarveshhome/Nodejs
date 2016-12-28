@@ -1,6 +1,8 @@
-var obj = {
-    numberToLocale: function(str) {
-        return str.toLocaleString();
-    }
+/*
+    @param (number) number
+    @param (locale) string
+    @return string
+ */
+module.exports = function (number,locale) {
+  return number.toLocaleString(locale);
 };
-module.exports = obj;
