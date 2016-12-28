@@ -1,0 +1,15 @@
+{
+  "name": "packagenpmcapital",
+  "version": "1.0.0",
+  "description": "package publish ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package",
+    "npm"
+  ],
+  "author": "sarvesh.mca@hotmail.com",
+  "license": "ISC"
+}
