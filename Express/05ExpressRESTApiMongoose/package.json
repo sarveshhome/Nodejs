@@ -1,0 +1,22 @@
+{
+  "name": "expressapimongodb",
+  "version": "1.0.0",
+  "description": "expressjs api wiht mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "api",
+    "mongodb"
+  ],
+  "dependencies": {
+    "express":"^4.14.0",
+    "body-parser":"^1.15.2",
+    "mongodb":"^2.2.16",
+    "mongoose":"^4.7.5"
+  },
+  "author": "sarvesh.mca@hotmail.com",
+  "license": "ISC"
+}
