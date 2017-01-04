@@ -1,0 +1,26 @@
+{
+  "name": "expressrestapimongoosespa",
+  "version": "1.0.0",
+  "description": "expressjs REST API mongoose SPA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SPA",
+    "mongoose",
+    "REST",
+    "API",
+    "expressjs"
+  ],
+  "author": "sarvesh.mca@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0",
+    "typings": "^2.1.0"
+  }
+}
