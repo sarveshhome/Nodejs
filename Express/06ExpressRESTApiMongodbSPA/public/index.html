@@ -1,0 +1,72 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="scotchBook">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+	<title>Node/Angular Todo App</title>
+
+	<!-- SCROLLS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+	<style>
+		html 					{ overflow-y:scroll; }
+		body 					{ padding-top:50px; }
+		#book-list 				{ margin-bottom:30px; }
+		#book-form 	 			{ margin-bottom:50px; }
+	</style>
+
+	<!-- SPELLS -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script><!-- load angular -->
+	<script src="core.js"></script>
+
+</head>
+<!-- SET THE CONTROLLER AND GET ALL books WITH INITIALIZE FUNCTION -->
+<body ng-controller="mainController">
+	<div class="container">
+
+		<!-- HEADER AND Book COUNT -->
+		<div class="jumbotron text-center">
+			<h1>I'm a Book info <span class="label label-info">{{ books.length }}</span></h1>
+		</div>
+
+		<!-- Book LIST -->
+		<div id="book-list" class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+
+				<!-- LOOP OVER THE books IN $scope.books -->
+				<div class="checkbox" ng-repeat="book in books">
+					<label>
+						<input type="checkbox" ng-click="deleteBook(book._id)"> {{ book.text }}
+					</label>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- FORM TO CREATE books -->
+		<div id="book-form" class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<form>
+					<div class="form-group">
+
+						<!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+						<input type="text" class="form-control input-lg text-center" placeholder="book" ng-model="formData.text">
+					</div>
+
+					<!-- createBook() WILL CREATE NEW books -->
+					<button type="submit" class="btn btn-primary btn-lg" ng-click="createBook()">Add</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="text-center text-muted">
+			
+		</div>
+
+	</div>
+
+</body>
+</html>
