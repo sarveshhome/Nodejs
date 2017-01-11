@@ -163,8 +163,7 @@ var server = app.listen(3001, function() {
  npm install  --save-dev vinyl-buffer
  
  npm install  --save-dev vinyl-source-stream
- 
- 
+  
  [Express - Node.js web application framework](ExpressPra)
 
     npm install express --save
