@@ -8,7 +8,7 @@ You can use following links to download prerequisite softwares to use Nodejs:
 3. MongoDB - https://www.mongodb.com/
 4. MongoChef - http://3t.io/mongochef/download/core/platform
 5. Git for windows - https://git-scm.com/download/win
-
+6. GitHub Desktop - https://help.github.com/desktop/guides/getting-started/installing-github-desktop/
 --------------------------------------------------------
 
 Step 1
