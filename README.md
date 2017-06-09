@@ -174,3 +174,18 @@ var server = app.listen(3001, function() {
     npm install cookie-parser --save
 
     npm install multer --save
+    -------------------------------------
+    ##nodemon
+    
+    nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application.
+    
+    install golably
+    
+     npm install -g nodemon
+    
+    install locally: npm install --save-dev nodemon
+    
+    run app :    nodemon server.js
+    
+    run on port:  nodemon ./server.js localhost 3001
+    
