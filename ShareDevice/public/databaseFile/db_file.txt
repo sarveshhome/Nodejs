@@ -1,0 +1,32 @@
+Item 
+------------------------------------------------------------------------
+
+{
+"itemId":"1",	
+"userId":"sarvesh_all", 
+"name":"sarvesh", 	
+"userId":"sarvesh_all",
+"desc":"item description",
+"img":"image item ",
+"specification":"item spc",
+"location":"23232323",
+"last_updated":"datae"
+ }
+
+
+-----------------------------------
+location
+
+{
+"locationId":"1",	
+"country":"india", 
+"state":"delhi", 	
+"region":"delhiNorth",
+"addressline1":"GCB ",
+"addressline2":"GCB 1 ",
+"pincode":"110089",
+"geolocation":"80.256221",
+"geolongitude":"70.000054",
+"geolatitude":"60.0223322"
+ }
+ 

@@ -1,0 +1,16 @@
+Import/Export mongo collections
+
+Export Data
+=====================================================================
+mongoexport -d eqs -c users -o D:\GitHub\goodshare\data\user-bk.json
+mongoexport -d eqs -c items -o D:\GitHub\goodshare\data\item-bk.json
+
+Import Data
+=====================================================================
+mongoimport -d eqs -c users --file user-bk.json
+mongoimport -d eqs -c items --file item-bk.json
+
+Example
+=====================================================================
+https://www.mkyong.com/mongodb/mongodb-import-and-export-example/
+

@@ -1,0 +1,38 @@
+PLP {
+    itemId: "itemId",
+    title: "title",
+    desc: "desc",
+    price: "",
+    image: "image",
+    Location: "location",
+    updateOn: "updateOn",
+    PDPUri: "uri",
+    connect: "connect"
+}
+PDP {
+    itemId: "itemId",
+    title: "title",
+    bredCrum: "bredCrum",
+    feature: "premium",
+    desc: "desc",
+    price: "",
+    image: "image",
+    alternativeImage: "alternativeImage",
+    Location: "location",
+    updateOn: "updateOn",
+    sellerName: "",
+    sellerContact: "contact",
+    Specification: "",
+    totalRatings: "",
+    reviews: [{
+        name: "name",
+        review: "review",
+        rating: "rating"
+    }],
+    qna: [{
+        que: "que",
+        ans: "ans"
+    }],
+    add: "true/false",
+
+}

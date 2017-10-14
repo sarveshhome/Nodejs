@@ -1,0 +1,33 @@
+GET : http://localhost:3060/item (list all)
+
+POST : http://localhost:3060/item  (Create)
+    BODY:
+    {
+        "itemId":"item3",
+        "name":"DRILL DRIVER",
+        "desc":"JCB cordless 12v Li-Ion drill driver is best suited for drilling holes and driving screws into light and medium materials",
+        "img":"https://tools.jcb.com/~/asset/4/12138.ashx?format=40%7C10000&u=0&r=0",
+        "specification":"The JCB 12v Drill Driver boasts 2 drill functions; drill and screwdriver with a 2 speed variable gearbox providing greater torque versatility for efficient drilling of various materials.  It has a maximum drilling capacity of 20mm in wood and 10mm in metal.  It comes with 2 x 1.3Ah Li-Ion battery packs and a 30 min quick charger. A LED light gives improved visibility and has a soft rubber overmould grip handle which provides comfort and a stable grip when working.",
+        "location":"Gurgaon"
+    }
+
+PUT : http://localhost:3060/item/item1 (Update)
+    BODY:
+    {
+    	"name":"Maruti 800",
+    	"desc":"Old is gold",
+    	"img":"https://img0.gaadicdn.com/images/car-images/large/Maruti/Maruti800/maruti-800-brick-red.jpg",
+    	"specification":"Maruti Suzuki will give its best-selling model, the Alto 800 a mid-life makeover. Recent spyshots reveal the Alto 800's new face, that includes a redesigned headlamp cluster and a new bumper. The front bumper also has provisions for foglamps now, that was missing in the earlier iteration. The side and the rear profile remain unchanged.",
+    	"location":"delhi, india"
+    }
+
+POST: http://localhost:3060/item/search (Find / Search)
+    BODY:
+    {
+    	"name":"JCB"
+    }
+
+GET : http://localhost:3060/item/item1 (Specific item)
+
+GET : http://localhost:3060/user (user info)
+

@@ -1,0 +1,22 @@
+{
+    "_id": ObjectId("593be887b1278c23281149db"),
+    "location": "23232323",
+    "specification": "item spc",
+    "img": "image item ",
+    "desc": "item description",
+    "name": "sarvesh",
+    "userId": "sarvesh_all",
+    "itemId": "2",
+    "__v": NumberInt(0)
+} {
+    "_id": ObjectId("593beace849d5d3070cdd436"),
+    "last_updated": ISODate("2017-06-09T18:30:00.000+0000"),
+    "location": "23232323,2566445",
+    "specification": "conputer item spc",
+    "img": "computerimage item ",
+    "desc": "computer description",
+    "name": "computer",
+    "userId": "sarvesh_all",
+    "itemId": "3",
+    "__v": NumberInt(0)
+}
